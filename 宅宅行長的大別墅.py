@@ -8,4 +8,5 @@ st.markdown("""這是 :house: 宅宅行長的私人別墅，讓我們一起探�
 
 st.markdown("這是 :red[紅色] 的文字。")
 
-st.title(" :rainbow[歡迎來到宅宅行長的大別墅！]")
+st.title(" :lightblue[歡迎來到宅宅行長的大別墅！]")
+
