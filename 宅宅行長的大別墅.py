@@ -2,8 +2,8 @@ import streamlit as st
 import time
 
 st.set_page_config(page_title="宅宅行長的大別墅", 
-                         layout="centered"
-                             page_icon=":house:")
+                      layout="centered",
+                        page_icon=":house:")
 
 st.title(" :green[歡迎來到宅宅行長的大別墅！]")
 st.markdown(" <span style='color: #FFD700;'>這是宅宅行長的金光閃閃大別墅 :house:</span>", unsafe_allow_html=True)
@@ -16,6 +16,7 @@ if st.button("我要參觀一下"):
         time.sleep(1.5)
     st.balloons()
     st.success("歡迎光臨！")
+
 
 
 
